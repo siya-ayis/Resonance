@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "mobile",
+    "slug": "mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Resonance listens to nearby music through the microphone and translates it into light and touch in real time. Audio is analysed on your device and never recorded or sent."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "permissions": ["RECORD_AUDIO", "MODIFY_AUDIO_SETTINGS"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

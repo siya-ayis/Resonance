@@ -1,0 +1,60 @@
+# --- Dependencies ---
+node_modules/
+**/node_modules/
+
+# --- Python ---
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# --- Build / generated output ---
+dist/
+**/dist/
+dist-ssr/
+out/
+**/out/
+web-build/
+*.tsbuildinfo
+
+# --- Portable tools & large binaries (do not commit) ---
+.tools/
+**/.tools/
+
+# --- Expo / Metro ---
+.expo/
+**/.expo/
+.metro-health-check*
+
+# --- Logs ---
+logs/
+*.log
+
+# --- Archives / handoff bundles ---
+*.zip
+
+# --- Native build folders ---
+/mobile/ios
+/mobile/android
+
+# --- Secrets / local env ---
+*.local
+.env
+.env*.local
+*.pem
+*.p8
+*.p12
+*.jks
+*.key
+*.mobileprovision
+
+# --- Editor / OS / tooling ---
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+.claude/
+**/.claude/
+*.suo
+*.sw?

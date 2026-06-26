@@ -53,12 +53,4 @@ Then scan the QR code with **Expo Go**.
 
 ---
 
-## 📄 Docs
-
-- `Resonance_Design_Doc.md` — full design doc (vision, architecture, the four pillars).
-- `Resonance_Demo_Script.md` — demo video script + voiceover.
-- `Resonance_Critique.md` — review notes.
-
----
-
 *Music was never meant to be heard alone. With Resonance, it can be felt, seen, and lived — by everyone.*
